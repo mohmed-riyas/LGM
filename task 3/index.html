@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<center>
+		<table border="4">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<td><input type="text" name="fname" placeholder=" Enter your first name" id="fname"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Last Name</th>
+					<td><input type="text" name="lname" placeholder=" Enter your last name" id="lname"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="text" name="email" placeholder=" Enter your email address" id="email"></td>
+				</tr>
+				<tr>
+					<th>Age</th>
+					<td><input type="text" name="age" placeholder=" enter your age" id="age"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="4" id="show">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	
+	<script src="main.js">
+		
+		
+
+	</script>
+</body>
+</html>
